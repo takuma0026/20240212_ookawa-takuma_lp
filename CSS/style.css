@@ -1,0 +1,81 @@
+.body {
+    height: 10000px;
+}
+
+.all {
+    max-width: 1500px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 10%;
+}
+
+.header_right {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    color: grey;
+}
+
+.header_navi {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.top {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.top-image {
+    width: 60%;
+    height: 60%;
+    margin-top: auto;
+}
+
+.top-massege1 {
+    font-family: 'Gorditas', serif;
+    color: rgb(181, 24, 104);
+    font-size: 4.5vw;
+    position: absolute;
+    top: 1.5em;
+    left: 23.5%;
+
+}
+
+.top-massege2 {
+    font-family: 'Gorditas', serif;
+    font-size: 5vw;
+    color: rgb(5, 161, 181);
+
+}
+
+.top-massege3 {
+    font-size: 2vw;
+    color: rgb(181, 24, 104);
+    font-weight: bold;
+    position: absolute;
+    top: 9.1em;
+    left: 23.5%;
+}
+
+.top-massege4 {
+    font-size: 2vw;
+    color: rgb(5, 161, 181);
+    font-weight: bold;
+
+}
+
+.top-massege5 {
+    font-size: 15px;
+    color: gray;
+    font-weight: bold;
+
+}
