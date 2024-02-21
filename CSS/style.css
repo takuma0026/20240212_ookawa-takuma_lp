@@ -3,7 +3,7 @@
 }
 
 .all {
-    width: 1500px;
+    max-width: 1500px;
 }
 
 .header {
@@ -28,15 +28,17 @@
     text-decoration: none;
 }
 
-.top {
-    position: relative;
-    width: 1500px;
+.top-area {
     height: 600px;
+}
+
+.top-block {
+    position: relative;
 }
 
 .top-image {
     width: 60%;
-    height: 90%;
+    height: 80%;
     margin-top: auto;
 }
 
@@ -81,7 +83,6 @@
 }
 
 .news-area {
-    width: 1500px;
     height: 350px;
 }
 
@@ -130,7 +131,6 @@
 }
 
 .about-area {
-    width: 1500px;
     height: auto;
 }
 
@@ -184,7 +184,6 @@
 }
 
 .service-area {
-    width: 1500px;
     height: auto;
 }
 
@@ -302,7 +301,6 @@
 }
 
 .blog-area {
-    width: 1500px;
     height: auto;
     background-color: rgb(245, 245, 245);
 
@@ -317,10 +315,10 @@
 
 .blog-block {
     height: auto;
-    width: 80%;
     display: flex;
     justify-content: space-around;
     margin-left: 20%;
+    margin-right: 20%;
     margin-top: 2.5%;
 }
 
@@ -400,7 +398,6 @@
 }
 
 .company-area {
-    width: 1500px;
     height: auto;
 
 
@@ -434,7 +431,6 @@ table th {
 
 
 .recruit-area {
-    width: 1500px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -475,7 +471,6 @@ table th {
 }
 
 .inquiry-area {
-    width: 1500px;
     height: auto;
     margin-top: 5vw;
 }
