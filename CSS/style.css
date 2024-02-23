@@ -29,7 +29,9 @@
 }
 
 .top-area {
-    height: 600px;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .top-block {
@@ -38,17 +40,18 @@
 
 .top-image {
     width: 60%;
-    height: 80%;
+    height: 60%;
     margin-top: auto;
 }
 
 .top-massege1 {
     font-family: 'Gorditas', serif;
     color: rgb(181, 24, 104);
-    font-size: 4.5vw;
+    font-size: 4vw;
     position: absolute;
-    top: 1.5em;
-    left: 23.5%;
+    top: 1.8em;
+    left: 15%;
+    line-height: 2em;
 
 }
 
@@ -64,8 +67,8 @@
     color: rgb(181, 24, 104);
     font-weight: bold;
     position: absolute;
-    top: 9.1em;
-    left: 23.5%;
+    top: 14em;
+    left: 15%;
 }
 
 .top-massege4 {
@@ -132,6 +135,7 @@
 
 .about-area {
     height: auto;
+    background-color: rgb(245, 245, 245);
 }
 
 .about-title {
@@ -297,7 +301,7 @@
     font-family: 'Gorditas', serif;
     color: rgb(181, 24, 104);
     font-size: 1.5vw;
-    margin: 50px 0 0 21%;
+    margin: 50px 0 0 12%;
 }
 
 .blog-area {
@@ -310,15 +314,15 @@
     color: gray;
     font-weight: bold;
     font-size: 2vw;
-    margin: 10px 0 0 21%;
+    margin: 10px 0 0 12%;
 }
 
 .blog-block {
     height: auto;
     display: flex;
     justify-content: space-around;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 2.5%;
 }
 
@@ -482,21 +486,31 @@ table th {
     font-weight: bold;
 }
 
-.iq-logo {
-    display: block;
-    width: 20%;
-    box-sizing: border-box;
-    background: linear-gradient(90deg, #f21d89, #B71568);
-    ;
-    padding: 10px 25px 20px 5px;
+.iq-massege2 {
+    border-left: 3px solid #B71568;
+    font-size: 3vw;
     text-align: center;
-    margin: 5% auto;
-    border-radius: 30px;
-    font-size: 2vw;
+    margin-left: 50%;
+    margin-top: 1%;
     color: #fff;
+
+}
+
+.iq-logo {
+
+    position: relative;
+    background: linear-gradient(#fd1e8f, #B41768);
+    width: 200px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
     font-weight: bold;
-    box-shadow: -5px 10px 10px rgb(132, 1, 81);
-    ;
+    text-decoration: none;
+    border-radius: 30px;
+    margin: 1% auto;
+
 }
 
 .iq-logo img {
@@ -512,4 +526,17 @@ table th {
 
 .copy1 {
     text-align: center;
+}
+
+
+.iq-logo::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background: url(../img/mail.svg) no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
 }
