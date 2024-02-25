@@ -383,18 +383,21 @@
 }
 
 .blog-tag {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: rgb(168, 168, 168);
     margin-top: 10%;
+    max-width: 1500px;
 }
 
 .blog-tag-day {
     display: inline-block;
+    max-width: 1500px;
 }
 
 .blog-tag-tag {
     display: inline-block;
     margin-left: 10%;
+    max-width: 1500px;
 }
 
 .blog-top {
