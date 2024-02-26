@@ -184,7 +184,7 @@
     font-family: 'Gorditas', serif;
     color: rgb(181, 24, 104);
     font-size: 1.5vw;
-    margin: 50px 0 0 21%;
+    margin: 50px 0 0 12%;
 }
 
 .service-area {
@@ -195,7 +195,7 @@
     color: gray;
     font-weight: bold;
     font-size: 2vw;
-    margin: 10px 0 0 21%;
+    margin: 10px 0 0 12%;
 }
 
 .service-block {
@@ -210,7 +210,6 @@
     height: 30vw;
     width: 34vw;
     background-color: rgb(181, 24, 104);
-    margin-left: 10%;
 }
 
 .service-img2 {
@@ -348,6 +347,7 @@
     text-align: center;
     border-radius: 10%;
     background-color: #fff;
+    max-width: 1500px;
 
 }
 
